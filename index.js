@@ -1,3 +1,5 @@
-import calc from './calculadora.js'
+const cesar = require('./cesar'); 
 
-console.log(calc.soma(3,4))
+console.log(cesar.criptografia('desenvolvedor', cesar.cifraLetra));
+console.log(cesar.cifraLetra('a', 5));
+console.log(cesar.decifraLetra('s', 3));
